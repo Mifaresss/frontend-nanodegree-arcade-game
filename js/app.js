@@ -1,7 +1,7 @@
 const enemyConfig = [
-   {y: 60, speedX: 30, }, // 410
-   {y: 145, speedX: 30, },// 380
-   {y: 230, speedX: 30, },//340
+   {y: 60, speedX: 400, }, // 410
+   {y: 145, speedX: 320, },// 380
+   {y: 230, speedX: 270, },//340
 ]
 class Enemies {
    constructor(y, speedX) {
