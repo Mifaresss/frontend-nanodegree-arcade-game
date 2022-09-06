@@ -1,7 +1,7 @@
 const enemyConfig = [
-   {y: 60, speedX: 410, },
-   {y: 145, speedX: 380, },
-   {y: 230, speedX: 340, },
+   {y: 60, speedX: 30, }, // 410
+   {y: 145, speedX: 30, },// 380
+   {y: 230, speedX: 30, },//340
 ]
 class Enemies {
    constructor(y, speedX) {
@@ -16,7 +16,7 @@ class Enemies {
       this.checkClash();
    }
    checkClash() {
-         if (player.x < this.x + 50 && player.x + 50 > this.x && player.y < this.y + 40 && player.y + 40 > this.y) {
+         if (player.x < this.x + 77 && player.x + 77 > this.x && player.y < this.y + 66 && player.y + 66 > this.y) {
             player.x = player.startX;
             player.y = player.startY;
          }
