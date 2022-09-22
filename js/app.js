@@ -118,10 +118,12 @@ function createEnemies(num) {
 createEnemies(3);
 
 
+
+
+
 function getRandomSpeed(min, max) {
 	return min + Math.floor(Math.random() * (max + 1 - min));
 }
-
 
 document.addEventListener('keyup', function (e) {
 	const allowedKey = {
